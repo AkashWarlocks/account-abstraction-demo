@@ -1,0 +1,83 @@
+<mxfile host="Electron" modified="2024-01-19T15:14:07.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="sNVG8WtV9B2WnA-FsSaa" version="22.1.2" type="device">
+  <diagram name="Page-1" id="cTtpX8FhL6fcj-6araZL">
+    <mxGraphModel dx="1306" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-4" value="1. Pays for gas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N4MS-H7HCSOt8FwucvXU-3">
+          <mxGeometry x="0.15" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-1" value="Bundler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-5" target="N4MS-H7HCSOt8FwucvXU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-5" value="Entrypoint" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="334" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-6" target="N4MS-H7HCSOt8FwucvXU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-11" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N4MS-H7HCSOt8FwucvXU-10">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-6" target="N4MS-H7HCSOt8FwucvXU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N4MS-H7HCSOt8FwucvXU-12">
+          <mxGeometry x="0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-6" value="Paymaster?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-8" target="N4MS-H7HCSOt8FwucvXU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-14" value="2.1Transfer Gas amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N4MS-H7HCSOt8FwucvXU-13">
+          <mxGeometry x="-0.4696" y="-1" relative="1" as="geometry">
+            <mxPoint x="-3" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-8" value="Paymaster" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="494" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-9" target="N4MS-H7HCSOt8FwucvXU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-17" value="2.2 Transfer Gas Amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N4MS-H7HCSOt8FwucvXU-16">
+          <mxGeometry x="-0.5" y="3" relative="1" as="geometry">
+            <mxPoint x="-4" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-9" value="Smart Account" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="494" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="N4MS-H7HCSOt8FwucvXU-5" target="N4MS-H7HCSOt8FwucvXU-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="334" y="290" />
+              <mxPoint x="120" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4MS-H7HCSOt8FwucvXU-19" value="3. PAY THE BUNDLER BACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N4MS-H7HCSOt8FwucvXU-18">
+          <mxGeometry x="-0.0233" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
