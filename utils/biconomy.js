@@ -51,7 +51,7 @@
         const account = await BiconomySmartAccountV2.create(
             {
                 chainId:ChainId.POLYGON_MUMBAI,
-                biconomyPaymasterApiKey:"NHZ1ckEE_.503ed1f8-cb0a-47d6-8486-51f637b1a230",
+                biconomyPaymasterApiKey:process.env.PAYMASTER_KEY,
                 bundlerUrl: "https://bundler.biconomy.io/api/v2/80001/nJPK7B3ru.dd7f7861-190d-41bd-af80-6877f74b8f44",
                 entryPointAddress: DEFAULT_ENTRYPOINT_ADDRESS,
                 defaultValidationModule: module,
